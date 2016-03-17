@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:url(images/lp/bodybg.jpg);
+}
+* {
+	margin:0px;
+	padding:0px;
+}
+#headerdiv {
+}
+.headerdiv {
+	background-color: #FFFFFF;
+	margin: 10px auto 0;
+	padding: 5px 10px;
+	width: 936px;
+}
+.logo {
+    float: left;
+    padding: 15px 0 8px 12px;
+}
+.phoone {
+    float: right;
+    text-align: right;
+    width: 360px;
+}
+.phoone p {
+    color: #404041;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    padding-top: 5px;
+}
+.phoone ul {
+    display: block;
+    float: left;
+    margin-left: 119px;
+    padding: 14px 0 0;
+    width: 66%;
+}
+.phoone ul li {
+	list-style:none;
+}
+
+.wpcf7-response-output {
+	display:none !important;	
+}
+
+*:first-child+html .phoone ul li {
+	list-style:none;
+	float:left;
+	padding-top:50px;
+
+}
+.phoone ul li a {
+	color: #000000;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 25px;
+	text-decoration: none;
+}
+.mainbanner {
+	float:left;
+}
+.formdiv {
+    background: url("images/lp/formbg.jpg") no-repeat scroll 0 0 transparent !important;
+    float: right;
+    height: 500px;
+    padding-left: 17px;
+    padding-right: 7px;
+    padding-top: 0;
+    width: 297px;
+}
+.formdiv div h2 {
+    color: #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 24px;
+    margin-bottom: 1px;
+    margin-top: 5px;
+}
+.formdiv div p {
+    color: #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+}
+.formdiv table {
+	color: #2F2F2F;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+
+.formdiv table input {
+    background: url("images/lp/textfeildbg.jpg") no-repeat scroll center top transparent;
+    border: 0 none;
+    height: 29px;
+    margin: 0 0 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 255px;
+}
+.formdiv table input[type="submit"] {
+	background: url("images/lp/proceed.png") no-repeat scroll center top transparent;
+	cursor: pointer;
+	height: 44px;
+	font-size:0px;
+}
+.formdiv table h3 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#805500;
+}
+.formdiv table p {
+	color:#2e2e2e;
+	font-size:12px;
+	font-weight:normal;
+}
+.clear {
+	clear:both;
+}
+
+a img {
+	border:0px none;
+}
+#formbanner {
+	width:956px;
+	margin:0px auto;
+}
+#contentdiv {
+	background: none repeat scroll 0 0 #FFFFFF;
+	margin: -6px auto;
+	min-height: 350px;
+	padding: 35px 10px 50px 0;
+	width: 936px;
+}
+.contentleft {
+    float: left;
+    padding: 0 0 0 16px;
+    width: 892px;
+}
+.contentleft h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:22px;
+	color:#000;
+	padding-bottom:10px;
+}
+.contentleft p strong {
+	color: #272727;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 20px;
+}
+.contentleft p {
+	color: #272727;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 21px;
+}
+.contentleft img {
+	float:left;
+	padding-right:10px;
+}
+.contentright {
+	float: right;
+	width: 190px;
+}
+.contentright img {
+	padding-bottom: 20px;
+}
+
+
+*:first-child+html .formdiv table input[type="submit"] {
+	background: url("images/lp/proceed.jpg") no-repeat scroll center top transparent;
+	cursor: pointer;
+	height: 44px;
+}
+
+
+
+#footerdiv {
+    margin: 17px auto;
+    width: 956px;
+}
+
+.footerleft {
+    color: #FFFFFF;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.footerright {
+	float:right;	
+}
+
+a:focus img[class*="align"], a:hover img[class*="align"], a:active img[class*="align"], a:focus img[class*="wp-image-"], a:hover img[class*="wp-image-"], a:active img[class*="wp-image-"], #content .gallery .gallery-icon a:focus img, #content .gallery .gallery-icon a:hover img, #content .gallery .gallery-icon a:active img {
+	background:none;
+	border:0px none;
+}
+
+.number {
+	background:	
+}
+
+caption, th, td {
+    font-weight: normal;
+}
